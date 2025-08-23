@@ -8,7 +8,7 @@
     background-image: url("../style/images/developer.png"),
         url(../style/images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: top left, right bottom;
 }
 
 /* nav style */
@@ -23,12 +23,25 @@ nav {
     font-size: 45px;
 }
 /* shared-style */
-.text-primary {
-    color: #fd6e0a;
+.dark-1 {
+    color: #181818;
 }
 .dark2 {
     color: #474747;
 }
+.dark-3 {
+    color: #757575;
+}
+.secondary-bg {
+    background: #fff8f3;
+}
+.text-center {
+    text-align: center;
+}
+.text-primary {
+    color: #fd6e0a;
+}
+
 .btn-primary {
     background-color: #fd6e0a;
     color: white;
@@ -50,8 +63,8 @@ nav ul li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
-    /* color: #474747; */
 }
+
 .banner {
     display: flex;
     justify-content: space-between;
@@ -70,10 +83,64 @@ nav li a {
     color: #181818;
 }
 .banner-discription {
+    width: 550px;
     font-size: 18px;
     line-height: 30px;
     color: #757575;
 }
 .banner-picture {
     width: 584px;
+}
+/* section */
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-discription {
+    font-size: 18px;
+    color: #757575;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-description {
+    font-weight: 600;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+/* skills container */
+.skills-container {
+    display: flex;
+    gap: 10px;
+}
+.skill {
+    width: 267px;
+    height: 300px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 6px 20px 0px black;
+    justify-content: space-between;
+}
+.skill-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.skill-description {
+    font-size: 16px;
 }
