@@ -38,6 +38,7 @@ nav {
 .text-center {
     text-align: center;
 }
+
 .text-primary {
     color: #fd6e0a;
 }
@@ -50,6 +51,11 @@ nav {
     padding: 18px 35px;
     border: none;
     border-radius: 5px;
+}
+.btn-primary:hover {
+    background: blue;
+    color: #ffffff;
+    cursor: pointer;
 }
 nav ul {
     display: flex;
@@ -124,7 +130,7 @@ main {
 /* skills container */
 .skills-container {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 .skill {
     width: 267px;
@@ -137,10 +143,67 @@ main {
     box-shadow: 0px 6px 20px 0px black;
     justify-content: space-between;
 }
+
+.skill:hover {
+    width: 300px;
+    height: 330px;
+    background: rgb(70, 200, 193);
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 30px;
+}
 .skill-title {
     font-weight: bold;
     font-size: 20px;
 }
 .skill-description {
     font-size: 16px;
+}
+.skill-description:hover {
+    color: #ffffff;
+}
+/* resume */
+
+.resume-container {
+    display: flex;
+    gap: 15px;
+}
+.resume-colum-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.exprince-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.exprince-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.exprince-description {
+    font-size: 16px;
+}
+.resume-btn {
+    margin-top: 69px;
+}
+/* footer */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+.footer-colam {
+    width: 50%;
+}
+footer input[type="text"] {
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background: #ffffff;
+    display: block;
+    padding: 8px 15px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    border: none;
 }
