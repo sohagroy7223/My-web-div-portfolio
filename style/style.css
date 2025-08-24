@@ -38,6 +38,14 @@ nav {
 .text-center {
     text-align: center;
 }
+.btn-icon {
+    padding: 30px;
+    border: none;
+    width: 200px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .text-primary {
     color: #fd6e0a;
@@ -206,4 +214,9 @@ footer input[type="text"] {
     font-size: 16px;
     margin-bottom: 24px;
     border: none;
+}
+footer textarea {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
 }
